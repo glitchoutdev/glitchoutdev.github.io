@@ -1,0 +1,110 @@
+@font-face {
+
+    font-family: myFont;
+        src:url(fonts/lemonmilkbold.otf);
+    }
+
+@font-face {
+
+    font-family: myFont1;
+        src:url(fonts/ovb.ttf)
+}
+
+
+.p {
+    text-align: center;
+    font-family: myFont1;
+    color: rgba(255, 255, 255, 0.74);
+    
+    }
+
+h1 {
+    text-align:center;
+    font-family: myFont1;
+    font-size: 56px;
+    color: white;
+    margin-bottom: 13px;
+  }
+
+  .glitchout {
+
+    background: -webkit-linear-gradient(#c411ca, #ff4800);
+    border:white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: myFont1;
+    font-weight: 700;
+    
+  }
+
+
+  @font-face {
+
+    font-family: myFont3;
+    src:url(fonts/Poppins-Light.ttf);
+  }
+
+  * {
+
+    margin: 0;
+    font-family: myFont3;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  .header {
+    justify-content: space-between;
+    display: flex;
+    font-family: myFont3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    align-items: center;
+    z-index: 100;
+  }
+
+  body {
+    min-height: 100vh;
+    background: url(images/Black.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .logo {
+
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .navbar a {
+
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+    margin-left: 25px;
+    -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+  }
+
+  .navbar a:hover {
+
+    
+    color: rgb(199, 9, 142);
+  cursor: pointer
+    
+  }
+ 
+  .texts {
+    align-items: center;
+    position: fixed;
+    margin-top: 250px;
+    margin-left: 240px;
+
+  }
