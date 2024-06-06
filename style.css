@@ -12,14 +12,14 @@
 
 
 .p {
-    text-align: center;
+
     font-family: myFont1;
     color: rgba(255, 255, 255, 0.74);
     
     }
 
-h1 {
-    text-align:center;
+.h1 {
+    
     font-family: myFont1;
     font-size: 56px;
     color: white;
@@ -68,7 +68,7 @@ h1 {
 
   body {
     min-height: 100vh;
-    background: url(images/Black.png) no-repeat;
+    background: url(images/abstractimg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
   }
@@ -102,9 +102,156 @@ h1 {
   }
  
   .texts {
+    align-content: center;
     align-items: center;
+    text-align: center;
     position: fixed;
     margin-top: 250px;
-    margin-left: 240px;
+    margin-left: 350px
 
+  }
+
+  .test {
+
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(207, 207, 207);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+
+  }
+
+  .test2 {
+
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(207, 207, 207);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+
+  }
+
+  .test3 {
+
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(207, 207, 207);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+
+  }
+
+  .test4 {
+
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(207, 207, 207);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+
+  }
+
+  .skills {
+
+    margin-left: 450px;
+    margin-top: 25px;
+  }
+
+  .pr1 {
+
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(207, 207, 207);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+
+  }
+
+  .pr2 {
+
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(207, 207, 207);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+
+  }
+
+  .pr3 {
+
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(207, 207, 207);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+
+  }
+
+  .pr4 {
+
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(207, 207, 207);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+
+  }
+
+  .pr5 {
+
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(207, 207, 207);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+
+  }
+
+  .programs {
+
+    margin-left: 449px;
+    margin-top: 25px;
+  }
+
+  .link1 {
+
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(207, 207, 207);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+  }
+
+  .link2 {
+
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(207, 207, 207);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+  }
+
+  .link3 {
+
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(207, 207, 207);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+  }
+
+  .link4 {
+
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(207, 207, 207);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    
+  }
+
+  .socials {
+
+    margin-left: 449px;
+    margin-top: 25px;
   }
