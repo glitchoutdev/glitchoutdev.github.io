@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src='main.js'></script>
 </head>
-<body style="color: white; position:fixed;">
-    <h1 style="margin-left: 449px; margin-top: 75px; margin-bottom: 15px;">About me</h1>
-    <p style="max-width: 499px; ; margin-left: 450px;">Hello! My name is GlitchOut and I am a 17 year old front-end and a beginner game developer. I started my journey of coding 4 years ago.</p>
-    <br>
-    <h1 style="margin-left: 449px; margin-bottom: 15px;">Skills</h1>
-    <p style="margin-left: 450px; max-width: 499px;">Continuously learning new things and improving myself.</p>
+<body style="color: white;position: fixed;">
+    <h1 class="about-texts" style="margin-left: 449px; margin-top: 75px; margin-bottom: 10px;">About me</h1>
+    <p class="about-texts" style="max-width: 499px; ; margin-left: 450px; margin-bottom: 10px;">Hello! My name is GlitchOut and I am a 17 year old front-end and a beginner game developer. I started my journey of coding 4 years ago.</p>
+    
+    <h1 class="about-texts" style="margin-left: 449px; margin-bottom: 10px;">Skills</h1>
+    <p class="about-texts" style="margin-left: 450px; max-width: 499px;">Continuously learning new things and improving myself.</p>
 
     <div class="skills">
         <span class="test" style="padding-left: 10px; padding-right: 10px;"><p1>CSS</p1></span>
@@ -24,29 +24,58 @@
         <span class="test4" style="padding-left: 10px; padding-right: 10px;"><p1>JS</p1></span>
     </div>
 
-    <h1 style="margin-left: 449px; margin-top: 15px; margin-bottom: 15px;">Programs i use</h1>
-    <p1 style="margin-left: 450px; max-width: 450px;">I use a variety of software tools, including code editors and graphic<br> <span style="margin-left: 450px;">design for my websites.</span></p1>
+    <h1 class="about-texts" style="margin-left: 449px; margin-top: 9px; margin-bottom: 9px;">Programs i use</h1>
+    <p1 class="about-texts" style="margin-left: 450px; max-width: 450px;">I use a variety of software tools, including code editors and graphic<br> <span style="margin-left: 450px;">design for my websites.</span></p1>
 
     <div class="programs">
         <span class="pr1" style="padding-left: 10px; padding-right: 10px;"><p1>Visual Studio Code</p1></span>
         <span class="pr3" style="padding-left: 10px; padding-right: 10px;"><p1>Visual Studio</p1></span>
         <span class="pr2" style="padding-left: 10px; padding-right: 10px;"><p1>Photoshop</p1></span>
         <span class="pr4" style="padding-left: 10px; padding-right: 10px;"><p1>Unity</p1></span>
-        <span class="pr5" style="padding-left: 10px; padding-right: 10px;"><p1>Premiere Pro</p1></span>
+        
     </div>
    
-    <h1 style="margin-left: 449px; margin-bottom: 15px; margin-top: 15px;">Socials</h1>
-
-    <div class="socials">
-        <a href="https://discordlookup.com/user/731480310184935426"><span class="link1" style="padding-left: 10px; padding-right: 10px;"><p1>Discord</p1></span></a>
-        <a href="https://github.com/glitchoutw/"><span class="link2" style="padding-left: 10px; padding-right: 10px;"><p1>GitHub</p1></span></a>
-        <a href="https://www.youtube.com/channel/UCaJJjaqVnueIkmy_VQS48ng"><span class="link3" style="padding-left: 10px; padding-right: 10px;"><p1>Youtube</p1></span></a>
-        <a href="https:instagram.com/glitchoutw"><span class="link4" style="padding-left: 10px; padding-right: 10px;"><p1>Instagram</p1></span></a>
-    </div>
+    <h1 class="about-texts" style="margin-left: 449px; display: inline;">Socials</h1>
+    <i style="display: inline; font-size: 25px; padding-left: 10px;" class="fa-brands fa-github"></i>
+    <i style="display: inline; font-size: 25px; padding-left: 10px;" class="fa-brands fa-discord"></i>
+    <i style="display: inline; font-size: 27px; padding-left: 10px;" class="fa-brands fa-instagram"></i>
+    <i style="display: inline; font-size: 25px; padding-left: 10px;" class="fa-brands fa-youtube"></i>
+    <style>
+        .socials a {
+          text-decoration: none;
+        }
+      
+        .socials a span {
+          padding-left: 10px;
+          padding-right: 10px;
+          color: rgb(165, 165, 231);
+          transition: color 0.3s ease;
+        }
+      
+        .socials a:hover span {
+          color: rgb(126, 64, 241);
+          filter: brightness(1.2); /* Adjust brightness level as desired */
+        }
+      </style>
+      
+      <div class="socials">
+        <a href="https://discordlookup.com/user/731480310184935426">
+          <span class="link1"><p1>Discord<i style="padding-left: 7px;" class="fa-solid fa-up-right-from-square"></i></p1></span>
+        </a>
+        <a href="https://github.com/glitchoutw/">
+          <span class="link2"><p1>GitHub<i style="padding-left: 7px;" class="fa-solid fa-up-right-from-square"></i></p1></span>
+        </a>
+        <a href="https://www.youtube.com/channel/UCaJJjaqVnueIkmy_VQS48ng">
+          <span class="link3"><p1>YouTube<i style="padding-left: 7px;" class="fa-solid fa-up-right-from-square"></i></p1></span>
+        </a>
+        <a href="https://instagram.com/glitchoutw">
+          <span class="link4"><p1>Instagram<i style="padding-left: 7px;" class="fa-solid fa-up-right-from-square"></i></p1></span>
+        </a>
+      </div>
 
 
     <header class="header">
-        <a href="index.html" class="logo">Glitch</a>
+        <a class="logo22" href="index.html" class="logo">Glitch</a>
 
         <nav class="navbar">
             <a href="./index.html">Home</a>
@@ -54,6 +83,21 @@
             <a href="./contact.html">Contact</a>
         </nav>
     </header>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+    // Get all elements with the class 'about-texts'
+    const aboutTexts = document.querySelectorAll(".about-texts");
+    
+    // Add the 'fade-in' class to each element after a short delay
+    aboutTexts.forEach(function(element, index) {
+        setTimeout(function() {
+            element.classList.add("fade-in");
+        }, index * 50); // Adjust the delay timing as needed
+    });
+});
+
+    </script>
     
 </body>
 </html>
