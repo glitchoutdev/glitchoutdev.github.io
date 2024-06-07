@@ -12,6 +12,69 @@
     
 </head>
 <body>
+    
+    <div style="color: white;" class="contact">
+        <h1 class="contactsh1">Contacts</h1>
+        <p1>Let's make something beautiful together.</p1>
+    
+
+    </div>
+    
+    <div style="display: flex; justify-content: center; margin-top: 10px;">
+    <a href="mailto:glitchoutdev@gmail.com" class="mailto">
+        <span class="mailto1">
+          <p1 style="padding: 6px;">glitchoutdev@gmail.com</p1>
+          
+        </span>
+      </a>
+    </div>
+
+    <div style="display: flex; justify-content: center; margin-top: 10px;">
+        <a href="https://instagram.com/glitchoutw" class="mailto">
+            <span class="mailto1">
+              <p1 style="padding: 6px;">Instagram</p1>
+              
+            </span>
+          </a>
+        </div>
+
+        <div style="display: flex; justify-content: center; margin-top: 10px;">
+            <a href="" class="mailto">
+                <span class="mailto1">
+                  <p1 style="padding: 6px;">Discord: @glitchout</p1>
+                  
+                </span>
+              </a>
+            </div>
+            
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    
+                    const contactElements = document.querySelectorAll(".contact, p1");
+            
+                    
+                    contactElements.forEach(function(element, index) {
+                        setTimeout(function() {
+                            element.classList.add("fade-in");
+                        }, index * 50); 
+                    });
+                });
+            </script>
+            
+
+        
+<style>
+    .mailto1 p1 {
+      transition: color 0.3s ease; 
+    }
+  
+    .mailto1:hover p1 {
+      color: rgba(168, 168, 168, 0.993);
+    }
+  </style>
+
+
+
     <header class="header">
         <a href="index.html" class="logo">Glitch</a>
 
