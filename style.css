@@ -26,16 +26,7 @@
     margin-bottom: 13px;
   }
 
-  .glitchout {
-
-    background: -webkit-linear-gradient(#c411ca, #ff4800);
-    border:white;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: myFont1;
-    font-weight: 700;
-    
-  }
+  
 
 
   @font-face {
@@ -68,8 +59,9 @@
 
   body {
     min-height: 100vh;
-    background: url(images/abstractimg.jpg) no-repeat;
+    background: url(images/abstractimg.png) no-repeat;
     background-size: cover;
+    
   }
 
   .logo {
@@ -87,16 +79,17 @@
     text-decoration: none;
     margin-left: 25px;
     -webkit-transition: color 0.3s ease-out;
-  -moz-transition: color 0.3s ease-out;
-  -o-transition: color 0.3s ease-out;
-  transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
+    user-select: none;
   }
 
   .navbar a:hover {
 
     
     color: rgb(199, 9, 142);
-  cursor: pointer
+    cursor: pointer
     
   }
  
@@ -114,7 +107,7 @@
 
     border-width:1px;
     border-style:solid;
-    border-color:rgb(207, 207, 207);
+    border-color:rgb(207, 207, 207, 0.5);
     background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
 
@@ -124,7 +117,7 @@
 
     border-width:1px;
     border-style:solid;
-    border-color:rgb(207, 207, 207);
+    border-color:rgb(207, 207, 207, 0.5);
     background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
 
@@ -134,7 +127,7 @@
 
     border-width:1px;
     border-style:solid;
-    border-color:rgb(207, 207, 207);
+    border-color:rgb(207, 207, 207, 0.5);
     background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
 
@@ -144,7 +137,7 @@
 
     border-width:1px;
     border-style:solid;
-    border-color:rgb(207, 207, 207);
+    border-color:rgb(207, 207, 207, 0.5);
     background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
 
@@ -153,14 +146,14 @@
   .skills {
 
     margin-left: 450px;
-    margin-top: 25px;
+    margin-top: 15px;
   }
 
   .pr1 {
 
     border-width:1px;
     border-style:solid;
-    border-color:rgb(207, 207, 207);
+    border-color:rgb(207, 207, 207, 0.5);
     background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
 
@@ -170,7 +163,7 @@
 
     border-width:1px;
     border-style:solid;
-    border-color:rgb(207, 207, 207);
+    border-color:rgba(207, 207, 207, 0.5);
     background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
 
@@ -180,7 +173,7 @@
 
     border-width:1px;
     border-style:solid;
-    border-color:rgb(207, 207, 207);
+    border-color:rgb(207, 207, 207, 0.5);
     background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
 
@@ -190,33 +183,25 @@
 
     border-width:1px;
     border-style:solid;
-    border-color:rgb(207, 207, 207);
+    border-color:rgb(207, 207, 207, 0.5);
     background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
 
   }
 
-  .pr5 {
-
-    border-width:1px;
-    border-style:solid;
-    border-color:rgb(207, 207, 207);
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 5px;
-
-  }
-
+  
   .programs {
 
     margin-left: 449px;
-    margin-top: 25px;
+    margin-top: 15px;
+    padding-bottom: 10px;
   }
 
   .link1 {
 
     border-width:1px;
     border-style:solid;
-    border-color:rgb(207, 207, 207);
+    border-color:rgb(207, 207, 207, 0.5);
     background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
   }
@@ -225,32 +210,76 @@
 
     border-width:1px;
     border-style:solid;
-    border-color:rgb(207, 207, 207);
+    border-color:rgb(207, 207, 207, 0.5);
     background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
+    margin-left: 2px;
   }
 
   .link3 {
 
     border-width:1px;
     border-style:solid;
-    border-color:rgb(207, 207, 207);
+    border-color:rgb(207, 207, 207, 0.5);
     background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
+    margin-left: 2px;
   }
 
   .link4 {
 
     border-width:1px;
     border-style:solid;
-    border-color:rgb(207, 207, 207);
-    background-color: rgba(255, 255, 255, 0);
+    border-color:rgb(207, 207, 207, 0.5);
     border-radius: 5px;
+    text-decoration: none!important;
+    margin-left: 2px;
     
   }
 
   .socials {
 
     margin-left: 449px;
-    margin-top: 25px;
+    padding-top: 10px;
   }
+
+  .about-texts {
+    opacity: 0; /* Initially hide the text */
+    transform: translateY(15px); /* Initially move the text downward */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Add transition effect */
+}
+
+.about-texts.fade-in {
+    opacity: 1; /* Show the text with fade-in effect */
+    transform: translateY(0); /* Move the text upward */
+}
+
+.j1 {
+
+
+  font-family: myFont3;
+ 
+}
+
+.j2 {
+
+
+  font-family: myFont3;
+ 
+}
+
+.j3 {
+
+
+  font-family: myFont3;
+  
+}
+
+.logo22 {
+
+  font-family: myFont1;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
