@@ -244,14 +244,14 @@
   }
 
   .about-texts {
-    opacity: 0; /* Initially hide the text */
-    transform: translateY(15px); /* Initially move the text downward */
-    transition: opacity 0.5s ease, transform 0.5s ease; /* Add transition effect */
+    opacity: 0; 
+    transform: translateY(15px); 
+    transition: opacity 0.5s ease, transform 0.5s ease; 
 }
 
 .about-texts.fade-in {
-    opacity: 1; /* Show the text with fade-in effect */
-    transform: translateY(0); /* Move the text upward */
+    opacity: 1; 
+    transform: translateY(0); 
 }
 
 .j1 {
@@ -282,4 +282,44 @@
   color: white;
   font-weight: 700;
   font-size: 18px;
+}
+
+.contact {
+
+  text-align: center;
+  margin: auto;
+  padding-top: 175px;
+  
+}
+
+a.mailto {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(207, 207, 207, 0.5);
+  border-radius: 5px;
+  text-decoration: none; 
+  margin-left: 2px;
+  color: white;
+}
+
+.contactsh1 {
+
+  font-family: myFont1;
+  background: -webkit-linear-gradient(#c411ca, #ff4800);
+            border: white;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+            font-size: 48px;
+}
+
+.contact {
+  opacity: 0;
+  transform: translateY(15px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.contact.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }
